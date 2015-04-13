@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:800);
+@import 'blokk/style.css';
+
+/* Setup */
+
+body {
+	margin: 0;
+	font-family: 'BLOKKNeue-Regular', sans-serif;
+	font-size: 20px;
+	background: #f5f5f5;
+	color: #333;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+}
+
+.page {
+	margin: 0 auto;
+}
+
+header {
+	margin: 30px 0 80px;
+}
+
+.container {
+	float: left;
+}
+
+.post,
+.widget {
+	margin-bottom: 50px;
+}
+
+.sidebar {
+	float: right;
+	overflow: hidden;
+}
+
+footer {
+	clear: both;
+	padding-top: 80px;
+}
+
+/* Layout */
+
+.page {
+	width: 1000px;
+}
+
+.container {
+	margin: 0 -250px 0 0;
+	width: 1000px;
+}
+
+.posts {
+	margin: 0 300px 0 0;
+}
+
+.sidebar {
+	width: 250px;
+}
+
+footer {
+	width: 1000px;
+}
+
+/* Media Queries */
